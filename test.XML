@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="MyTestSuite">
+
+    <test name="tesSuit">
+<groups>
+    <run>
+        <include name="group0"/>
+
+        <include name="group2"/>
+    </run>
+
+</groups>
+        <classes>
+
+            <!-- مثال على كلاس تاني لو عندك SearchTests -->
+            <class name="org.example.testSuit">
+
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>
