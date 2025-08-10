@@ -22,7 +22,7 @@ public class dashboard {
         Driver = new FirefoxDriver();
 
         Driver.manage().window().maximize();
-        Driver.navigate().to("https://saferoad-fms-web-stage.vercel.app/auth/signin");
+        Driver.navigate().to("");
         wait = new WebDriverWait(Driver, Duration.ofSeconds(200));
 
     }
